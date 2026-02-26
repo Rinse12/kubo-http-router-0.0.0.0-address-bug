@@ -1,0 +1,12 @@
+{
+  "name": "kubo-http-router-address-bug",
+  "version": "1.0.0",
+  "description": "Reproduction for Kubo announcing raw 0.0.0.0 listen addresses to HTTP routers",
+  "type": "module",
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "dependencies": {
+    "kubo": "0.40.0"
+  }
+}
